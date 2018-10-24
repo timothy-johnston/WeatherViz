@@ -1,0 +1,85 @@
+
+h1, h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#dailyWeatherIcon{
+	width: 250px;
+	height: 250px;
+	margin-left:45px;
+	margin-right:45px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+
+#weatherDetails{
+/* 	vertical-align: middle; */
+	margin-top:42px;
+}
+
+#currentUser{
+	float:right;
+	padding-right:15px;
+	font-weight:400;
+	color:black;
+	letter-spacing:1px;
+}
+
+#currentConditionsContainer{
+	display:flex;
+	flex-direction:row;
+	font-size: 2rem;
+	justify-content:space-evenly;
+	margin:25px;
+	margin-bottom:50px;
+	margin-left:0px;
+}
+
+.currentConditionsCard {
+	/*border: solid black;*/
+	border-radius:15px;
+	background:rgb(255, 255, 255,.2); 
+	padding:10px;
+}
+
+.card h1{
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:10px;
+}
+
+
+#weatherPropertiesForm{
+	margin: 25px;
+	
+}
+
+#chartTypeSelectionContainer{
+	/*margin-bottom:50px;*/
+	width:693px;
+	margin:0 auto;
+}
+
+.weatherviz{
+	margin-top:25px;
+	width:100%;
+	height:500px;
+	margin-bottom:50px; 
+}
+
+#forecastChart {
+	border-radius:15px;
+	background:rgb(255, 255, 255,.2); 
+	padding:5px;
+}
+
+.heavier {
+	font-weight:500;
+}
+
+#liveRadar {
+	border:15px solid;
+	border-color:rgb(255, 255, 255,.2);
+	border-radius:15px;
+}

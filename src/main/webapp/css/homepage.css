@@ -1,0 +1,44 @@
+#currentUser{
+	float:right;
+	padding-right:15px;
+	font-weight:400;
+	color:black;
+	letter-spacing:1px;
+}
+
+#historicalDateSearch{
+	margin-left:15px;
+
+
+}
+
+.row{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#yesNoHistorical{
+	margin-left:30px;
+}
+
+.btn{
+	
+	margin-left:60px
+}
+
+h1, h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.weatherviz{
+	margin-top:25px;
+	width:100%;
+	height:500px;
+	margin-bottom:50px; 
+}
+
+#forecastChart {
+	border-radius:15px;
+	background:rgb(255, 255, 255,.2); 
+	padding:5px;
+}
