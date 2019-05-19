@@ -54,11 +54,11 @@ Parameters:
   dbuser:
     Description: User for postgres
     Type: String
-    Default: 'postgres'
+    Default: 'postgres111'
   dbpassword:
     Description: Password for postgres
     Type: String
-    Default: 'password'
+    Default: '1'
 
 Conditions:
   LaunchLinuxEC2Instance:
