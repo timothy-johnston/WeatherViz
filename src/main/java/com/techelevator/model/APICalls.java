@@ -7,14 +7,12 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
-import java.net.URLConnection;
 import java.util.ArrayList;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import org.omg.CORBA.portable.InputStream;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -312,7 +310,7 @@ public class APICalls {
 			System.out.println("Now starting API call test for forecast!!: ");
 			
 			URL obj = null;
-			String url = "https://api.darksky.net/forecast/7dd0bbccb34922418a87a9089a43068e/" + latLon;
+			String url = "https://api.darksky.net/forecast/" + System.getenv("DS_KEY") + latLon;
 			try {
 				obj = new URL(url);
 			} catch (MalformedURLException e) {
